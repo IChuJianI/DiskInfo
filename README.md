@@ -2,7 +2,7 @@
 
 专为外接 USB 硬盘提供 SMART 健康监测。在 HarmonyOS 手机、平板与电脑上，读取健康状态、温度、通电时间、剩余寿命与完整 SMART 属性；内置硬盘不参与检测。
 
-![DiskInfo 应用图标](icon-build/store_icon_216.png)
+<img src="icon-build/store_icon_1024.png" width="216" alt="DiskInfo 应用图标" title="DiskInfo 应用图标">
 
 ## 功能
 
@@ -16,9 +16,9 @@
 - **外观与语言**：跟随系统 / 浅色 / 深色，四种按钮色彩；简体中文、繁體中文、English、日本語、한국어、Русский
 - **自适应布局**：手机与平板使用悬浮底部页签（首页 / 硬盘），电脑使用侧栏（首页 / 硬盘 / 关于）
 
-| 平板 | 电脑 |
-| --- | --- |
-| ![平板端](store/promo/tablet_01_dashboard.png) | ![电脑端](store/promo/pc_01_dashboard.png) |
+| 手机 | 平板 | 电脑 |
+| --- | --- | --- |
+| <img src="store/promo/phone_02_dashboard.png" width="150" alt="手机端"> | <img src="store/promo/tablet_01_dashboard.png" width="300" alt="平板端"> | <img src="store/promo/pc_01_dashboard.png" width="300" alt="电脑端"> |
 
 ## 环境
 
