@@ -1,0 +1,572 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "CrystalDiskInfo SMART エンジンを搭載したディスク健康監視ツール"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "DiskInfo"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "DiskInfo"
+    },
+    {
+      "name": "home",
+      "value": "ホーム"
+    },
+    {
+      "name": "home_intro",
+      "value": "DiskInfo は外付け USB ドライブから SMART データを読み取り、健康状態、温度、通電時間、余寿命をリアルタイムで表示します。"
+    },
+    {
+      "name": "home_steps_title",
+      "value": "使い方"
+    },
+    {
+      "name": "home_step_connect_title",
+      "value": "ドライブを接続"
+    },
+    {
+      "name": "home_step_connect_desc",
+      "value": "外付けドライブまたは外付けケースを USB に接続し、システムの確認でアクセスを許可します。"
+    },
+    {
+      "name": "home_step_read_title",
+      "value": "自動読み取り"
+    },
+    {
+      "name": "home_step_read_desc",
+      "value": "設定した間隔で自動スキャンし、型番、容量、温度、SMART 属性を読み取ります。"
+    },
+    {
+      "name": "home_step_view_title",
+      "value": "健康状態を確認"
+    },
+    {
+      "name": "home_step_view_desc",
+      "value": "「ディスク」ページで各指標を確認できます。読み取りに失敗した場合は「診断」で原因を調べられます。"
+    },
+    {
+      "name": "home_cta",
+      "value": "ディスクを表示"
+    },
+    {
+      "name": "home_local_note",
+      "value": "すべてのデータは端末内で読み取られ、ネットワークに送信されません"
+    },
+    {
+      "name": "disks",
+      "value": "ディスク"
+    },
+    {
+      "name": "refresh",
+      "value": "更新"
+    },
+    {
+      "name": "more",
+      "value": "その他"
+    },
+    {
+      "name": "settings",
+      "value": "設定"
+    },
+    {
+      "name": "about",
+      "value": "このアプリについて"
+    },
+    {
+      "name": "diagnostics",
+      "value": "診断"
+    },
+    {
+      "name": "last_scan",
+      "value": "前回のスキャン"
+    },
+    {
+      "name": "scanning",
+      "value": "スキャン中…"
+    },
+    {
+      "name": "no_disk",
+      "value": "外付けディスクが検出されません"
+    },
+    {
+      "name": "status_good",
+      "value": "良好"
+    },
+    {
+      "name": "status_caution",
+      "value": "注意"
+    },
+    {
+      "name": "status_bad",
+      "value": "異常"
+    },
+    {
+      "name": "status_unknown",
+      "value": "不明"
+    },
+    {
+      "name": "health",
+      "value": "健康状態"
+    },
+    {
+      "name": "temperature",
+      "value": "温度"
+    },
+    {
+      "name": "life",
+      "value": "余寿命"
+    },
+    {
+      "name": "life_estimated",
+      "value": "推定"
+    },
+    {
+      "name": "power_on_hours",
+      "value": "通電時間"
+    },
+    {
+      "name": "power_on_count",
+      "value": "通電回数"
+    },
+    {
+      "name": "capacity",
+      "value": "容量"
+    },
+    {
+      "name": "info_title",
+      "value": "デバイス情報"
+    },
+    {
+      "name": "info_model",
+      "value": "型番"
+    },
+    {
+      "name": "info_serial",
+      "value": "シリアル番号"
+    },
+    {
+      "name": "info_firmware",
+      "value": "ファームウェア"
+    },
+    {
+      "name": "info_interface",
+      "value": "インターフェース"
+    },
+    {
+      "name": "info_transfer",
+      "value": "転送モード"
+    },
+    {
+      "name": "info_form_factor",
+      "value": "フォームファクター"
+    },
+    {
+      "name": "info_rotation",
+      "value": "回転数"
+    },
+    {
+      "name": "info_features",
+      "value": "機能"
+    },
+    {
+      "name": "info_bus",
+      "value": "バス"
+    },
+    {
+      "name": "smart_title",
+      "value": "SMART 属性"
+    },
+    {
+      "name": "col_id",
+      "value": "ID"
+    },
+    {
+      "name": "col_name",
+      "value": "属性名"
+    },
+    {
+      "name": "col_current",
+      "value": "現在値"
+    },
+    {
+      "name": "col_worst",
+      "value": "最悪値"
+    },
+    {
+      "name": "col_threshold",
+      "value": "しきい値"
+    },
+    {
+      "name": "col_raw",
+      "value": "生の値"
+    },
+    {
+      "name": "smart_unavailable",
+      "value": "このデバイスの SMART データを読み取れません。"
+    },
+    {
+      "name": "degraded_hint",
+      "value": "USB ハードディスクまたは SSD 外付けケースを接続してください。内蔵ディスクはスキャンされません。"
+    },
+    {
+      "name": "chart_title",
+      "value": "温度履歴"
+    },
+    {
+      "name": "chart_min",
+      "value": "最低"
+    },
+    {
+      "name": "chart_max",
+      "value": "最高"
+    },
+    {
+      "name": "bus_ata",
+      "value": "ATA"
+    },
+    {
+      "name": "bus_nvme",
+      "value": "NVMe"
+    },
+    {
+      "name": "bus_usb",
+      "value": "USB"
+    },
+    {
+      "name": "bus_unknown",
+      "value": "不明"
+    },
+    {
+      "name": "rotation_ssd",
+      "value": "SSD"
+    },
+    {
+      "name": "rotation_hdd",
+      "value": "HDD"
+    },
+    {
+      "name": "rotation_unreported",
+      "value": "回転数は報告されません"
+    },
+    {
+      "name": "rotation_estimated",
+      "value": "型番から推定"
+    },
+    {
+      "name": "unit_rpm",
+      "value": "rpm"
+    },
+    {
+      "name": "unit_hours",
+      "value": "時間"
+    },
+    {
+      "name": "unit_minutes",
+      "value": "分"
+    },
+    {
+      "name": "power_on_under_minute",
+      "value": "1 分未満"
+    },
+    {
+      "name": "unit_times",
+      "value": "回"
+    },
+    {
+      "name": "value_na",
+      "value": "---"
+    },
+    {
+      "name": "warnings",
+      "value": "警告"
+    },
+    {
+      "name": "settings_refresh",
+      "value": "更新間隔"
+    },
+    {
+      "name": "settings_unit",
+      "value": "温度単位"
+    },
+    {
+      "name": "settings_unit_c",
+      "value": "摂氏 (°C)"
+    },
+    {
+      "name": "settings_unit_f",
+      "value": "華氏 (°F)"
+    },
+    {
+      "name": "settings_alarm",
+      "value": "温度アラーム値"
+    },
+    {
+      "name": "settings_raw",
+      "value": "生の値の表示"
+    },
+    {
+      "name": "settings_raw_dec",
+      "value": "10 進数"
+    },
+    {
+      "name": "settings_raw_hex",
+      "value": "16 進数"
+    },
+    {
+      "name": "settings_hide_serial",
+      "value": "シリアル番号を隠す"
+    },
+    {
+      "name": "settings_thresholds",
+      "value": "ディスク状態のしきい値"
+    },
+    {
+      "name": "settings_threshold_05",
+      "value": "代替処理済みセクタ (05)"
+    },
+    {
+      "name": "settings_threshold_c5",
+      "value": "代替処理保留中のセクタ (C5)"
+    },
+    {
+      "name": "settings_threshold_c6",
+      "value": "修正不能セクタ (C6)"
+    },
+    {
+      "name": "settings_threshold_ff",
+      "value": "寿命注意レベル"
+    },
+    {
+      "name": "settings_language",
+      "value": "言語"
+    },
+    {
+      "name": "language_auto",
+      "value": "システムに従う"
+    },
+    {
+      "name": "language_zh",
+      "value": "简体中文"
+    },
+    {
+      "name": "language_en",
+      "value": "English"
+    },
+    {
+      "name": "about_version",
+      "value": "バージョン"
+    },
+    {
+      "name": "about_developer",
+      "value": "開発者"
+    },
+    {
+      "name": "about_developer_name",
+      "value": "Li Chen"
+    },
+    {
+      "name": "about_bundle",
+      "value": "パッケージ名"
+    },
+    {
+      "name": "about_website",
+      "value": "公式サイト"
+    },
+    {
+      "name": "about_email",
+      "value": "連絡先メール"
+    },
+    {
+      "name": "about_email_copied",
+      "value": "メールアドレスをコピーしました"
+    },
+    {
+      "name": "about_website_copied",
+      "value": "ウェブサイトをコピーしました"
+    },
+    {
+      "name": "about_license",
+      "value": "オープンソースライセンス"
+    },
+    {
+      "name": "diag_title",
+      "value": "診断"
+    },
+    {
+      "name": "diag_channels",
+      "value": "USB チャネルメッセージ"
+    },
+    {
+      "name": "app_tagline",
+      "value": "ディスク健康モニター"
+    },
+    {
+      "name": "settings_core",
+      "value": "コア設定"
+    },
+    {
+      "name": "settings_display",
+      "value": "表示"
+    },
+    {
+      "name": "settings_group_general",
+      "value": "一般"
+    },
+    {
+      "name": "settings_group_detection",
+      "value": "検出"
+    },
+    {
+      "name": "settings_appearance",
+      "value": "外観"
+    },
+    {
+      "name": "settings_theme_mode",
+      "value": "テーマ"
+    },
+    {
+      "name": "settings_accent",
+      "value": "ボタンの色"
+    },
+    {
+      "name": "settings_theme_auto",
+      "value": "システムに従う"
+    },
+    {
+      "name": "settings_light",
+      "value": "ライト"
+    },
+    {
+      "name": "settings_dark",
+      "value": "ダーク"
+    },
+    {
+      "name": "accent_blue",
+      "value": "ブルー"
+    },
+    {
+      "name": "accent_red",
+      "value": "レッド"
+    },
+    {
+      "name": "accent_purple",
+      "value": "パープル"
+    },
+    {
+      "name": "accent_teal",
+      "value": "ティール"
+    },
+    {
+      "name": "language_zh_hant",
+      "value": "繁體中文"
+    },
+    {
+      "name": "language_ja",
+      "value": "日本語"
+    },
+    {
+      "name": "language_ko",
+      "value": "한국어"
+    },
+    {
+      "name": "language_ru",
+      "value": "Русский"
+    },
+    {
+      "name": "licenses_list_title",
+      "value": "ライセンス"
+    },
+    {
+      "name": "licenses_section_projects",
+      "value": "プロジェクト名とリポジトリ"
+    },
+    {
+      "name": "licenses_section_third",
+      "value": "サードパーティコンポーネントとライセンス"
+    },
+    {
+      "name": "licenses_section_third_sub",
+      "value": "本アプリに同梱されるコンポーネントとライセンス全文"
+    },
+    {
+      "name": "licenses_this_project",
+      "value": "本プロジェクト"
+    },
+    {
+      "name": "licenses_upstream_project",
+      "value": "上流プロジェクト"
+    },
+    {
+      "name": "licenses_components",
+      "value": "コンポーネント"
+    },
+    {
+      "name": "licenses_copyright",
+      "value": "著作権表示"
+    },
+    {
+      "name": "licenses_full_text",
+      "value": "ライセンス全文"
+    },
+    {
+      "name": "licenses_note_label",
+      "value": "注記"
+    },
+    {
+      "name": "licenses_note_body",
+      "value": "上流のライセンスファイルに CrystalDiskInfo のライセンスが記載されており、本アプリに同梱されています。上流で個別に記載されていないが本アプリに組み込まれたコンポーネントは補足声明に記載しています。"
+    },
+    {
+      "name": "licenses_view_upstream",
+      "value": "上流ライセンスの全文を表示"
+    },
+    {
+      "name": "licenses_view_project",
+      "value": "このプロジェクトのライセンス全文を表示"
+    },
+    {
+      "name": "licenses_project_sub",
+      "value": "このプロジェクトが使用する MIT ライセンス"
+    },
+    {
+      "name": "licenses_view_supplement",
+      "value": "補足声明の全文を表示"
+    },
+    {
+      "name": "licenses_supplement_title",
+      "value": "サードパーティ補足声明"
+    },
+    {
+      "name": "licenses_supplement_sub",
+      "value": "本アプリに同梱されるコンポーネントとリソース"
+    },
+    {
+      "name": "licenses_upstream_sub",
+      "value": "上流プロジェクトに同梱されるライセンスファイル"
+    },
+    {
+      "name": "a11y_licenses_back",
+      "value": "ライセンスに戻る"
+    },
+    {
+      "name": "toast_link_copied",
+      "value": "リンクをクリップボードにコピーしました"
+    },
+    {
+      "name": "toast_license_read_failed",
+      "value": "ライセンスファイルの読み込みに失敗しました"
+    },
+    {
+      "name": "crystaldiskinfo_components",
+      "value": "CrystalDiskInfo（SMART 解析エンジン、移植版）"
+    },
+    {
+      "name": "licenses_section_mit_sub",
+      "value": "CrystalDiskInfo の上流ライセンス"
+    }
+  ]
+}

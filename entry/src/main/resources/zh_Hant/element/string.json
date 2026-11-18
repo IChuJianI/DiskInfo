@@ -1,0 +1,572 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "基於 CrystalDiskInfo SMART 引擎的硬碟健康監測工具"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "DiskInfo"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "DiskInfo"
+    },
+    {
+      "name": "home",
+      "value": "首頁"
+    },
+    {
+      "name": "home_intro",
+      "value": "DiskInfo 讀取外接 USB 硬碟的 SMART 資料，即時顯示健康狀態、溫度、通電時間與剩餘壽命。"
+    },
+    {
+      "name": "home_steps_title",
+      "value": "使用步驟"
+    },
+    {
+      "name": "home_step_connect_title",
+      "value": "連接硬碟"
+    },
+    {
+      "name": "home_step_connect_desc",
+      "value": "用 USB 連接外接硬碟或硬碟盒，按系統提示允許存取。"
+    },
+    {
+      "name": "home_step_read_title",
+      "value": "自動讀取"
+    },
+    {
+      "name": "home_step_read_desc",
+      "value": "應用按設定的間隔自動掃描，識別型號、容量、溫度與 SMART 屬性。"
+    },
+    {
+      "name": "home_step_view_title",
+      "value": "查看健康"
+    },
+    {
+      "name": "home_step_view_desc",
+      "value": "在「硬碟」頁查看各項指標，讀取異常時到診斷頁排查。"
+    },
+    {
+      "name": "home_cta",
+      "value": "查看硬碟"
+    },
+    {
+      "name": "home_local_note",
+      "value": "所有資料均在本機讀取，不會上傳網路"
+    },
+    {
+      "name": "disks",
+      "value": "硬碟"
+    },
+    {
+      "name": "refresh",
+      "value": "重新整理"
+    },
+    {
+      "name": "more",
+      "value": "更多"
+    },
+    {
+      "name": "settings",
+      "value": "設定"
+    },
+    {
+      "name": "about",
+      "value": "關於"
+    },
+    {
+      "name": "diagnostics",
+      "value": "診斷"
+    },
+    {
+      "name": "last_scan",
+      "value": "上次掃描"
+    },
+    {
+      "name": "scanning",
+      "value": "掃描中…"
+    },
+    {
+      "name": "no_disk",
+      "value": "未偵測到外接硬碟"
+    },
+    {
+      "name": "status_good",
+      "value": "良好"
+    },
+    {
+      "name": "status_caution",
+      "value": "警告"
+    },
+    {
+      "name": "status_bad",
+      "value": "不良"
+    },
+    {
+      "name": "status_unknown",
+      "value": "未知"
+    },
+    {
+      "name": "health",
+      "value": "健康狀態"
+    },
+    {
+      "name": "temperature",
+      "value": "溫度"
+    },
+    {
+      "name": "life",
+      "value": "剩餘壽命"
+    },
+    {
+      "name": "life_estimated",
+      "value": "估算"
+    },
+    {
+      "name": "power_on_hours",
+      "value": "通電時間"
+    },
+    {
+      "name": "power_on_count",
+      "value": "通電次數"
+    },
+    {
+      "name": "capacity",
+      "value": "容量"
+    },
+    {
+      "name": "info_title",
+      "value": "裝置資訊"
+    },
+    {
+      "name": "info_model",
+      "value": "型號"
+    },
+    {
+      "name": "info_serial",
+      "value": "序號"
+    },
+    {
+      "name": "info_firmware",
+      "value": "韌體"
+    },
+    {
+      "name": "info_interface",
+      "value": "介面"
+    },
+    {
+      "name": "info_transfer",
+      "value": "傳輸模式"
+    },
+    {
+      "name": "info_form_factor",
+      "value": "外形規格"
+    },
+    {
+      "name": "info_rotation",
+      "value": "轉速"
+    },
+    {
+      "name": "info_features",
+      "value": "功能"
+    },
+    {
+      "name": "info_bus",
+      "value": "匯流排"
+    },
+    {
+      "name": "smart_title",
+      "value": "SMART 屬性"
+    },
+    {
+      "name": "col_id",
+      "value": "ID"
+    },
+    {
+      "name": "col_name",
+      "value": "屬性名稱"
+    },
+    {
+      "name": "col_current",
+      "value": "目前值"
+    },
+    {
+      "name": "col_worst",
+      "value": "最差值"
+    },
+    {
+      "name": "col_threshold",
+      "value": "閾值"
+    },
+    {
+      "name": "col_raw",
+      "value": "原始值"
+    },
+    {
+      "name": "smart_unavailable",
+      "value": "無法讀取此裝置的 SMART 資料。"
+    },
+    {
+      "name": "degraded_hint",
+      "value": "請連接 USB 硬碟或 SSD 行動硬碟盒。內部硬碟不參與偵測。"
+    },
+    {
+      "name": "chart_title",
+      "value": "溫度歷史"
+    },
+    {
+      "name": "chart_min",
+      "value": "最低"
+    },
+    {
+      "name": "chart_max",
+      "value": "最高"
+    },
+    {
+      "name": "bus_ata",
+      "value": "ATA"
+    },
+    {
+      "name": "bus_nvme",
+      "value": "NVMe"
+    },
+    {
+      "name": "bus_usb",
+      "value": "USB"
+    },
+    {
+      "name": "bus_unknown",
+      "value": "未知"
+    },
+    {
+      "name": "rotation_ssd",
+      "value": "固態硬碟"
+    },
+    {
+      "name": "rotation_hdd",
+      "value": "機械硬碟"
+    },
+    {
+      "name": "rotation_unreported",
+      "value": "轉速未回報"
+    },
+    {
+      "name": "rotation_estimated",
+      "value": "按型號推斷"
+    },
+    {
+      "name": "unit_rpm",
+      "value": "轉/分"
+    },
+    {
+      "name": "unit_hours",
+      "value": "小時"
+    },
+    {
+      "name": "unit_minutes",
+      "value": "分鐘"
+    },
+    {
+      "name": "power_on_under_minute",
+      "value": "不足 1 分鐘"
+    },
+    {
+      "name": "unit_times",
+      "value": "次"
+    },
+    {
+      "name": "value_na",
+      "value": "---"
+    },
+    {
+      "name": "warnings",
+      "value": "警告訊息"
+    },
+    {
+      "name": "settings_refresh",
+      "value": "重新整理間隔"
+    },
+    {
+      "name": "settings_unit",
+      "value": "溫度單位"
+    },
+    {
+      "name": "settings_unit_c",
+      "value": "攝氏度 (°C)"
+    },
+    {
+      "name": "settings_unit_f",
+      "value": "華氏度 (°F)"
+    },
+    {
+      "name": "settings_alarm",
+      "value": "溫度告警值"
+    },
+    {
+      "name": "settings_raw",
+      "value": "原始值顯示"
+    },
+    {
+      "name": "settings_raw_dec",
+      "value": "十進位"
+    },
+    {
+      "name": "settings_raw_hex",
+      "value": "十六進位"
+    },
+    {
+      "name": "settings_hide_serial",
+      "value": "隱藏序號"
+    },
+    {
+      "name": "settings_thresholds",
+      "value": "硬碟狀態閾值"
+    },
+    {
+      "name": "settings_threshold_05",
+      "value": "重映射磁區 (05)"
+    },
+    {
+      "name": "settings_threshold_c5",
+      "value": "待映射磁區 (C5)"
+    },
+    {
+      "name": "settings_threshold_c6",
+      "value": "無法修正磁區 (C6)"
+    },
+    {
+      "name": "settings_threshold_ff",
+      "value": "壽命告警水準"
+    },
+    {
+      "name": "settings_language",
+      "value": "語言"
+    },
+    {
+      "name": "language_auto",
+      "value": "跟隨系統"
+    },
+    {
+      "name": "language_zh",
+      "value": "简体中文"
+    },
+    {
+      "name": "language_en",
+      "value": "English"
+    },
+    {
+      "name": "about_version",
+      "value": "版本"
+    },
+    {
+      "name": "about_developer",
+      "value": "開發者"
+    },
+    {
+      "name": "about_developer_name",
+      "value": "李晨"
+    },
+    {
+      "name": "about_bundle",
+      "value": "套件名稱"
+    },
+    {
+      "name": "about_website",
+      "value": "官方網站"
+    },
+    {
+      "name": "about_email",
+      "value": "聯絡信箱"
+    },
+    {
+      "name": "about_email_copied",
+      "value": "電子信箱已複製"
+    },
+    {
+      "name": "about_website_copied",
+      "value": "官方網站已複製"
+    },
+    {
+      "name": "about_license",
+      "value": "開源許可"
+    },
+    {
+      "name": "diag_title",
+      "value": "診斷"
+    },
+    {
+      "name": "diag_channels",
+      "value": "USB 通道訊息"
+    },
+    {
+      "name": "app_tagline",
+      "value": "硬碟健康監測"
+    },
+    {
+      "name": "settings_core",
+      "value": "核心設定"
+    },
+    {
+      "name": "settings_display",
+      "value": "顯示"
+    },
+    {
+      "name": "settings_group_general",
+      "value": "一般"
+    },
+    {
+      "name": "settings_group_detection",
+      "value": "偵測"
+    },
+    {
+      "name": "settings_appearance",
+      "value": "外觀"
+    },
+    {
+      "name": "settings_theme_mode",
+      "value": "主題模式"
+    },
+    {
+      "name": "settings_accent",
+      "value": "按鈕色彩"
+    },
+    {
+      "name": "settings_theme_auto",
+      "value": "跟隨系統"
+    },
+    {
+      "name": "settings_light",
+      "value": "淺色"
+    },
+    {
+      "name": "settings_dark",
+      "value": "深色"
+    },
+    {
+      "name": "accent_blue",
+      "value": "藍色"
+    },
+    {
+      "name": "accent_red",
+      "value": "紅色"
+    },
+    {
+      "name": "accent_purple",
+      "value": "紫色"
+    },
+    {
+      "name": "accent_teal",
+      "value": "青綠色"
+    },
+    {
+      "name": "language_zh_hant",
+      "value": "繁體中文"
+    },
+    {
+      "name": "language_ja",
+      "value": "日本語"
+    },
+    {
+      "name": "language_ko",
+      "value": "한국어"
+    },
+    {
+      "name": "language_ru",
+      "value": "Русский"
+    },
+    {
+      "name": "licenses_list_title",
+      "value": "開源許可"
+    },
+    {
+      "name": "licenses_section_projects",
+      "value": "專案名稱與倉庫"
+    },
+    {
+      "name": "licenses_section_third",
+      "value": "第三方元件與許可"
+    },
+    {
+      "name": "licenses_section_third_sub",
+      "value": "隨應用分發的元件及許可全文"
+    },
+    {
+      "name": "licenses_this_project",
+      "value": "本專案"
+    },
+    {
+      "name": "licenses_upstream_project",
+      "value": "上游專案"
+    },
+    {
+      "name": "licenses_components",
+      "value": "元件"
+    },
+    {
+      "name": "licenses_copyright",
+      "value": "版權聲明"
+    },
+    {
+      "name": "licenses_full_text",
+      "value": "許可全文"
+    },
+    {
+      "name": "licenses_note_label",
+      "value": "說明"
+    },
+    {
+      "name": "licenses_note_body",
+      "value": "上游許可檔案列出了 CrystalDiskInfo 的許可條款，隨本應用一併分發；實際編譯進本應用但未被上游單列的元件見補充聲明。"
+    },
+    {
+      "name": "licenses_view_upstream",
+      "value": "檢視上游完整許可"
+    },
+    {
+      "name": "licenses_view_project",
+      "value": "檢視本專案完整許可"
+    },
+    {
+      "name": "licenses_project_sub",
+      "value": "本專案使用的 MIT 許可"
+    },
+    {
+      "name": "licenses_view_supplement",
+      "value": "檢視完整補充聲明"
+    },
+    {
+      "name": "licenses_supplement_title",
+      "value": "第三方元件補充聲明"
+    },
+    {
+      "name": "licenses_supplement_sub",
+      "value": "隨應用分發的元件與內嵌資源"
+    },
+    {
+      "name": "licenses_upstream_sub",
+      "value": "隨上游專案分發的許可檔案"
+    },
+    {
+      "name": "a11y_licenses_back",
+      "value": "返回開源許可"
+    },
+    {
+      "name": "toast_link_copied",
+      "value": "連結已複製到剪貼簿"
+    },
+    {
+      "name": "toast_license_read_failed",
+      "value": "讀取許可檔案失敗"
+    },
+    {
+      "name": "crystaldiskinfo_components",
+      "value": "CrystalDiskInfo（SMART 解析引擎，已移植）"
+    },
+    {
+      "name": "licenses_section_mit_sub",
+      "value": "CrystalDiskInfo 使用的上游許可"
+    }
+  ]
+}

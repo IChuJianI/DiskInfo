@@ -1,0 +1,572 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "CrystalDiskInfo SMART 엔진 기반 디스크 상태 모니터링 도구"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "DiskInfo"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "DiskInfo"
+    },
+    {
+      "name": "home",
+      "value": "홈"
+    },
+    {
+      "name": "home_intro",
+      "value": "DiskInfo는 외장 USB 드라이브에서 SMART 데이터를 읽어 상태, 온도, 사용 시간, 남은 수명을 실시간으로 표시합니다."
+    },
+    {
+      "name": "home_steps_title",
+      "value": "사용 방법"
+    },
+    {
+      "name": "home_step_connect_title",
+      "value": "드라이브 연결"
+    },
+    {
+      "name": "home_step_connect_desc",
+      "value": "외장 드라이브나 외장 케이스를 USB에 연결하고 시스템 안내가 나오면 접근을 허용하세요."
+    },
+    {
+      "name": "home_step_read_title",
+      "value": "자동 읽기"
+    },
+    {
+      "name": "home_step_read_desc",
+      "value": "설정한 간격으로 자동 스캔하여 모델, 용량, 온도 및 SMART 속성을 읽습니다."
+    },
+    {
+      "name": "home_step_view_title",
+      "value": "상태 확인"
+    },
+    {
+      "name": "home_step_view_desc",
+      "value": "디스크 페이지에서 모든 지표를 확인하세요. 읽기에 실패하면 진단에서 문제를 확인할 수 있습니다."
+    },
+    {
+      "name": "home_cta",
+      "value": "디스크 보기"
+    },
+    {
+      "name": "home_local_note",
+      "value": "모든 데이터는 기기에서만 읽으며 네트워크로 전송되지 않습니다"
+    },
+    {
+      "name": "disks",
+      "value": "디스크"
+    },
+    {
+      "name": "refresh",
+      "value": "새로고침"
+    },
+    {
+      "name": "more",
+      "value": "더보기"
+    },
+    {
+      "name": "settings",
+      "value": "설정"
+    },
+    {
+      "name": "about",
+      "value": "정보"
+    },
+    {
+      "name": "diagnostics",
+      "value": "진단"
+    },
+    {
+      "name": "last_scan",
+      "value": "마지막 스캔"
+    },
+    {
+      "name": "scanning",
+      "value": "스캔 중…"
+    },
+    {
+      "name": "no_disk",
+      "value": "외장 디스크가 감지되지 않았습니다"
+    },
+    {
+      "name": "status_good",
+      "value": "양호"
+    },
+    {
+      "name": "status_caution",
+      "value": "주의"
+    },
+    {
+      "name": "status_bad",
+      "value": "불량"
+    },
+    {
+      "name": "status_unknown",
+      "value": "알 수 없음"
+    },
+    {
+      "name": "health",
+      "value": "상태"
+    },
+    {
+      "name": "temperature",
+      "value": "온도"
+    },
+    {
+      "name": "life",
+      "value": "남은 수명"
+    },
+    {
+      "name": "life_estimated",
+      "value": "추정"
+    },
+    {
+      "name": "power_on_hours",
+      "value": "사용 시간"
+    },
+    {
+      "name": "power_on_count",
+      "value": "사용 횟수"
+    },
+    {
+      "name": "capacity",
+      "value": "용량"
+    },
+    {
+      "name": "info_title",
+      "value": "기기 정보"
+    },
+    {
+      "name": "info_model",
+      "value": "모델"
+    },
+    {
+      "name": "info_serial",
+      "value": "시리얼 번호"
+    },
+    {
+      "name": "info_firmware",
+      "value": "펌웨어"
+    },
+    {
+      "name": "info_interface",
+      "value": "인터페이스"
+    },
+    {
+      "name": "info_transfer",
+      "value": "전송 모드"
+    },
+    {
+      "name": "info_form_factor",
+      "value": "폼 팩터"
+    },
+    {
+      "name": "info_rotation",
+      "value": "회전 속도"
+    },
+    {
+      "name": "info_features",
+      "value": "기능"
+    },
+    {
+      "name": "info_bus",
+      "value": "버스"
+    },
+    {
+      "name": "smart_title",
+      "value": "SMART 속성"
+    },
+    {
+      "name": "col_id",
+      "value": "ID"
+    },
+    {
+      "name": "col_name",
+      "value": "속성 이름"
+    },
+    {
+      "name": "col_current",
+      "value": "현재 값"
+    },
+    {
+      "name": "col_worst",
+      "value": "최악 값"
+    },
+    {
+      "name": "col_threshold",
+      "value": "임계값"
+    },
+    {
+      "name": "col_raw",
+      "value": "원시 값"
+    },
+    {
+      "name": "smart_unavailable",
+      "value": "이 기기에서는 SMART 데이터를 읽을 수 없습니다."
+    },
+    {
+      "name": "degraded_hint",
+      "value": "USB 하드 디스크 또는 SSD 외장 케이스를 연결하세요. 내장 디스크는 스캔하지 않습니다."
+    },
+    {
+      "name": "chart_title",
+      "value": "온도 기록"
+    },
+    {
+      "name": "chart_min",
+      "value": "최저"
+    },
+    {
+      "name": "chart_max",
+      "value": "최고"
+    },
+    {
+      "name": "bus_ata",
+      "value": "ATA"
+    },
+    {
+      "name": "bus_nvme",
+      "value": "NVMe"
+    },
+    {
+      "name": "bus_usb",
+      "value": "USB"
+    },
+    {
+      "name": "bus_unknown",
+      "value": "알 수 없음"
+    },
+    {
+      "name": "rotation_ssd",
+      "value": "SSD"
+    },
+    {
+      "name": "rotation_hdd",
+      "value": "HDD"
+    },
+    {
+      "name": "rotation_unreported",
+      "value": "회전 속도 미보고"
+    },
+    {
+      "name": "rotation_estimated",
+      "value": "모델로 추정"
+    },
+    {
+      "name": "unit_rpm",
+      "value": "rpm"
+    },
+    {
+      "name": "unit_hours",
+      "value": "시간"
+    },
+    {
+      "name": "unit_minutes",
+      "value": "분"
+    },
+    {
+      "name": "power_on_under_minute",
+      "value": "1분 미만"
+    },
+    {
+      "name": "unit_times",
+      "value": "회"
+    },
+    {
+      "name": "value_na",
+      "value": "---"
+    },
+    {
+      "name": "warnings",
+      "value": "경고"
+    },
+    {
+      "name": "settings_refresh",
+      "value": "새로고침 간격"
+    },
+    {
+      "name": "settings_unit",
+      "value": "온도 단위"
+    },
+    {
+      "name": "settings_unit_c",
+      "value": "섭씨 (°C)"
+    },
+    {
+      "name": "settings_unit_f",
+      "value": "화씨 (°F)"
+    },
+    {
+      "name": "settings_alarm",
+      "value": "온도 경고 값"
+    },
+    {
+      "name": "settings_raw",
+      "value": "원시 값 표시"
+    },
+    {
+      "name": "settings_raw_dec",
+      "value": "10진수"
+    },
+    {
+      "name": "settings_raw_hex",
+      "value": "16진수"
+    },
+    {
+      "name": "settings_hide_serial",
+      "value": "시리얼 번호 숨기기"
+    },
+    {
+      "name": "settings_thresholds",
+      "value": "디스크 상태 임계값"
+    },
+    {
+      "name": "settings_threshold_05",
+      "value": "재할당 섹터 (05)"
+    },
+    {
+      "name": "settings_threshold_c5",
+      "value": "보류 중인 섹터 (C5)"
+    },
+    {
+      "name": "settings_threshold_c6",
+      "value": "수정 불가 섹터 (C6)"
+    },
+    {
+      "name": "settings_threshold_ff",
+      "value": "수명 주의 수준"
+    },
+    {
+      "name": "settings_language",
+      "value": "언어"
+    },
+    {
+      "name": "language_auto",
+      "value": "시스템 설정 따르기"
+    },
+    {
+      "name": "language_zh",
+      "value": "简体中文"
+    },
+    {
+      "name": "language_en",
+      "value": "English"
+    },
+    {
+      "name": "about_version",
+      "value": "버전"
+    },
+    {
+      "name": "about_developer",
+      "value": "개발자"
+    },
+    {
+      "name": "about_developer_name",
+      "value": "Li Chen"
+    },
+    {
+      "name": "about_bundle",
+      "value": "패키지 이름"
+    },
+    {
+      "name": "about_website",
+      "value": "공식 웹사이트"
+    },
+    {
+      "name": "about_email",
+      "value": "연락 이메일"
+    },
+    {
+      "name": "about_email_copied",
+      "value": "이메일이 복사되었습니다"
+    },
+    {
+      "name": "about_website_copied",
+      "value": "웹사이트가 복사되었습니다"
+    },
+    {
+      "name": "about_license",
+      "value": "오픈 소스 라이선스"
+    },
+    {
+      "name": "diag_title",
+      "value": "진단"
+    },
+    {
+      "name": "diag_channels",
+      "value": "USB 채널 메시지"
+    },
+    {
+      "name": "app_tagline",
+      "value": "디스크 상태 모니터"
+    },
+    {
+      "name": "settings_core",
+      "value": "핵심 설정"
+    },
+    {
+      "name": "settings_display",
+      "value": "표시"
+    },
+    {
+      "name": "settings_group_general",
+      "value": "일반"
+    },
+    {
+      "name": "settings_group_detection",
+      "value": "감지"
+    },
+    {
+      "name": "settings_appearance",
+      "value": "모양"
+    },
+    {
+      "name": "settings_theme_mode",
+      "value": "테마"
+    },
+    {
+      "name": "settings_accent",
+      "value": "버튼 색상"
+    },
+    {
+      "name": "settings_theme_auto",
+      "value": "시스템 설정 따르기"
+    },
+    {
+      "name": "settings_light",
+      "value": "라이트"
+    },
+    {
+      "name": "settings_dark",
+      "value": "다크"
+    },
+    {
+      "name": "accent_blue",
+      "value": "파란색"
+    },
+    {
+      "name": "accent_red",
+      "value": "빨간색"
+    },
+    {
+      "name": "accent_purple",
+      "value": "보라색"
+    },
+    {
+      "name": "accent_teal",
+      "value": "청록색"
+    },
+    {
+      "name": "language_zh_hant",
+      "value": "繁體中文"
+    },
+    {
+      "name": "language_ja",
+      "value": "日本語"
+    },
+    {
+      "name": "language_ko",
+      "value": "한국어"
+    },
+    {
+      "name": "language_ru",
+      "value": "Русский"
+    },
+    {
+      "name": "licenses_list_title",
+      "value": "라이선스"
+    },
+    {
+      "name": "licenses_section_projects",
+      "value": "프로젝트 이름 및 저장소"
+    },
+    {
+      "name": "licenses_section_third",
+      "value": "타사 구성 요소 및 라이선스"
+    },
+    {
+      "name": "licenses_section_third_sub",
+      "value": "이 앱에 포함된 구성 요소와 라이선스 전문"
+    },
+    {
+      "name": "licenses_this_project",
+      "value": "이 프로젝트"
+    },
+    {
+      "name": "licenses_upstream_project",
+      "value": "업스트림 프로젝트"
+    },
+    {
+      "name": "licenses_components",
+      "value": "구성 요소"
+    },
+    {
+      "name": "licenses_copyright",
+      "value": "저작권 고지"
+    },
+    {
+      "name": "licenses_full_text",
+      "value": "라이선스 전문"
+    },
+    {
+      "name": "licenses_note_label",
+      "value": "안내"
+    },
+    {
+      "name": "licenses_note_body",
+      "value": "업스트림 라이선스 파일에 CrystalDiskInfo 라이선스가 포함되어 있으며 이 앱과 함께 배포됩니다. 업스트림에 별도로 나열되지 않았지만 이 앱에 포함된 구성 요소는 보충 고지에 기재되어 있습니다."
+    },
+    {
+      "name": "licenses_view_upstream",
+      "value": "업스트림 라이선스 전문 보기"
+    },
+    {
+      "name": "licenses_view_project",
+      "value": "이 프로젝트의 라이선스 전문 보기"
+    },
+    {
+      "name": "licenses_project_sub",
+      "value": "이 프로젝트에 적용되는 MIT 라이선스"
+    },
+    {
+      "name": "licenses_view_supplement",
+      "value": "보충 고지 전문 보기"
+    },
+    {
+      "name": "licenses_supplement_title",
+      "value": "타사 보충 고지"
+    },
+    {
+      "name": "licenses_supplement_sub",
+      "value": "이 앱에 포함된 구성 요소 및 리소스"
+    },
+    {
+      "name": "licenses_upstream_sub",
+      "value": "업스트림 프로젝트에 포함된 라이선스 파일"
+    },
+    {
+      "name": "a11y_licenses_back",
+      "value": "라이선스로 돌아가기"
+    },
+    {
+      "name": "toast_link_copied",
+      "value": "링크가 클립보드에 복사되었습니다"
+    },
+    {
+      "name": "toast_license_read_failed",
+      "value": "라이선스 파일을 읽지 못했습니다"
+    },
+    {
+      "name": "crystaldiskinfo_components",
+      "value": "CrystalDiskInfo(SMART 해석 엔진, 이식됨)"
+    },
+    {
+      "name": "licenses_section_mit_sub",
+      "value": "CrystalDiskInfo의 업스트림 라이선스"
+    }
+  ]
+}

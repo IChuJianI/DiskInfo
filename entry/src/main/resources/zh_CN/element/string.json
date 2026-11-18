@@ -1,0 +1,572 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "基于 CrystalDiskInfo SMART 引擎的硬盘健康监测工具"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "DiskInfo"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "DiskInfo"
+    },
+    {
+      "name": "home",
+      "value": "首页"
+    },
+    {
+      "name": "home_intro",
+      "value": "DiskInfo 读取外接 USB 硬盘的 SMART 数据，实时显示健康状态、温度、通电时间与剩余寿命。"
+    },
+    {
+      "name": "home_steps_title",
+      "value": "使用步骤"
+    },
+    {
+      "name": "home_step_connect_title",
+      "value": "连接硬盘"
+    },
+    {
+      "name": "home_step_connect_desc",
+      "value": "用 USB 连接外接硬盘或硬盘盒，按系统提示允许访问。"
+    },
+    {
+      "name": "home_step_read_title",
+      "value": "自动读取"
+    },
+    {
+      "name": "home_step_read_desc",
+      "value": "应用按设置的间隔自动扫描，识别型号、容量、温度与 SMART 属性。"
+    },
+    {
+      "name": "home_step_view_title",
+      "value": "查看健康"
+    },
+    {
+      "name": "home_step_view_desc",
+      "value": "在「硬盘」页查看各项指标，读取异常时到诊断页排查。"
+    },
+    {
+      "name": "home_cta",
+      "value": "查看硬盘"
+    },
+    {
+      "name": "home_local_note",
+      "value": "所有数据均在本机读取，不会上传网络"
+    },
+    {
+      "name": "disks",
+      "value": "硬盘"
+    },
+    {
+      "name": "refresh",
+      "value": "刷新"
+    },
+    {
+      "name": "more",
+      "value": "更多"
+    },
+    {
+      "name": "settings",
+      "value": "设置"
+    },
+    {
+      "name": "about",
+      "value": "关于"
+    },
+    {
+      "name": "diagnostics",
+      "value": "诊断"
+    },
+    {
+      "name": "last_scan",
+      "value": "上次扫描"
+    },
+    {
+      "name": "scanning",
+      "value": "扫描中…"
+    },
+    {
+      "name": "no_disk",
+      "value": "未检测到外接硬盘"
+    },
+    {
+      "name": "status_good",
+      "value": "良好"
+    },
+    {
+      "name": "status_caution",
+      "value": "警告"
+    },
+    {
+      "name": "status_bad",
+      "value": "不良"
+    },
+    {
+      "name": "status_unknown",
+      "value": "未知"
+    },
+    {
+      "name": "health",
+      "value": "健康状态"
+    },
+    {
+      "name": "temperature",
+      "value": "温度"
+    },
+    {
+      "name": "life",
+      "value": "剩余寿命"
+    },
+    {
+      "name": "life_estimated",
+      "value": "估算"
+    },
+    {
+      "name": "power_on_hours",
+      "value": "通电时间"
+    },
+    {
+      "name": "power_on_count",
+      "value": "通电次数"
+    },
+    {
+      "name": "capacity",
+      "value": "容量"
+    },
+    {
+      "name": "info_title",
+      "value": "设备信息"
+    },
+    {
+      "name": "info_model",
+      "value": "型号"
+    },
+    {
+      "name": "info_serial",
+      "value": "序列号"
+    },
+    {
+      "name": "info_firmware",
+      "value": "固件"
+    },
+    {
+      "name": "info_interface",
+      "value": "接口"
+    },
+    {
+      "name": "info_transfer",
+      "value": "传输模式"
+    },
+    {
+      "name": "info_form_factor",
+      "value": "外形规格"
+    },
+    {
+      "name": "info_rotation",
+      "value": "转速"
+    },
+    {
+      "name": "info_features",
+      "value": "功能"
+    },
+    {
+      "name": "info_bus",
+      "value": "总线"
+    },
+    {
+      "name": "smart_title",
+      "value": "SMART 属性"
+    },
+    {
+      "name": "col_id",
+      "value": "ID"
+    },
+    {
+      "name": "col_name",
+      "value": "属性名称"
+    },
+    {
+      "name": "col_current",
+      "value": "当前值"
+    },
+    {
+      "name": "col_worst",
+      "value": "最差值"
+    },
+    {
+      "name": "col_threshold",
+      "value": "阈值"
+    },
+    {
+      "name": "col_raw",
+      "value": "原始值"
+    },
+    {
+      "name": "smart_unavailable",
+      "value": "无法读取此设备的 SMART 数据。"
+    },
+    {
+      "name": "degraded_hint",
+      "value": "请连接 USB 硬盘或 SSD 移动硬盘盒。内部硬盘不参与检测。"
+    },
+    {
+      "name": "chart_title",
+      "value": "温度历史"
+    },
+    {
+      "name": "chart_min",
+      "value": "最低"
+    },
+    {
+      "name": "chart_max",
+      "value": "最高"
+    },
+    {
+      "name": "bus_ata",
+      "value": "ATA"
+    },
+    {
+      "name": "bus_nvme",
+      "value": "NVMe"
+    },
+    {
+      "name": "bus_usb",
+      "value": "USB"
+    },
+    {
+      "name": "bus_unknown",
+      "value": "未知"
+    },
+    {
+      "name": "rotation_ssd",
+      "value": "固态硬盘"
+    },
+    {
+      "name": "rotation_hdd",
+      "value": "机械硬盘"
+    },
+    {
+      "name": "rotation_unreported",
+      "value": "转速未报告"
+    },
+    {
+      "name": "rotation_estimated",
+      "value": "按型号推断"
+    },
+    {
+      "name": "unit_rpm",
+      "value": "转/分"
+    },
+    {
+      "name": "unit_hours",
+      "value": "小时"
+    },
+    {
+      "name": "unit_minutes",
+      "value": "分钟"
+    },
+    {
+      "name": "power_on_under_minute",
+      "value": "不足 1 分钟"
+    },
+    {
+      "name": "unit_times",
+      "value": "次"
+    },
+    {
+      "name": "value_na",
+      "value": "---"
+    },
+    {
+      "name": "warnings",
+      "value": "警告信息"
+    },
+    {
+      "name": "settings_refresh",
+      "value": "刷新间隔"
+    },
+    {
+      "name": "settings_unit",
+      "value": "温度单位"
+    },
+    {
+      "name": "settings_unit_c",
+      "value": "摄氏度 (°C)"
+    },
+    {
+      "name": "settings_unit_f",
+      "value": "华氏度 (°F)"
+    },
+    {
+      "name": "settings_alarm",
+      "value": "温度告警值"
+    },
+    {
+      "name": "settings_raw",
+      "value": "原始值显示"
+    },
+    {
+      "name": "settings_raw_dec",
+      "value": "十进制"
+    },
+    {
+      "name": "settings_raw_hex",
+      "value": "十六进制"
+    },
+    {
+      "name": "settings_hide_serial",
+      "value": "隐藏序列号"
+    },
+    {
+      "name": "settings_thresholds",
+      "value": "硬盘状态阈值"
+    },
+    {
+      "name": "settings_threshold_05",
+      "value": "重映射扇区 (05)"
+    },
+    {
+      "name": "settings_threshold_c5",
+      "value": "待映射扇区 (C5)"
+    },
+    {
+      "name": "settings_threshold_c6",
+      "value": "无法修正扇区 (C6)"
+    },
+    {
+      "name": "settings_threshold_ff",
+      "value": "寿命告警水平"
+    },
+    {
+      "name": "settings_language",
+      "value": "语言"
+    },
+    {
+      "name": "language_auto",
+      "value": "跟随系统"
+    },
+    {
+      "name": "language_zh",
+      "value": "简体中文"
+    },
+    {
+      "name": "language_en",
+      "value": "English"
+    },
+    {
+      "name": "about_version",
+      "value": "版本"
+    },
+    {
+      "name": "about_developer",
+      "value": "开发者"
+    },
+    {
+      "name": "about_developer_name",
+      "value": "李晨"
+    },
+    {
+      "name": "about_bundle",
+      "value": "包名"
+    },
+    {
+      "name": "about_website",
+      "value": "官方网站"
+    },
+    {
+      "name": "about_email",
+      "value": "联系邮箱"
+    },
+    {
+      "name": "about_email_copied",
+      "value": "邮箱已复制"
+    },
+    {
+      "name": "about_website_copied",
+      "value": "官网已复制"
+    },
+    {
+      "name": "about_license",
+      "value": "开源许可"
+    },
+    {
+      "name": "diag_title",
+      "value": "诊断"
+    },
+    {
+      "name": "diag_channels",
+      "value": "USB 通道消息"
+    },
+    {
+      "name": "app_tagline",
+      "value": "硬盘健康监测"
+    },
+    {
+      "name": "settings_core",
+      "value": "核心设置"
+    },
+    {
+      "name": "settings_display",
+      "value": "显示"
+    },
+    {
+      "name": "settings_group_general",
+      "value": "通用"
+    },
+    {
+      "name": "settings_group_detection",
+      "value": "检测"
+    },
+    {
+      "name": "settings_appearance",
+      "value": "外观"
+    },
+    {
+      "name": "settings_theme_mode",
+      "value": "主题模式"
+    },
+    {
+      "name": "settings_accent",
+      "value": "按钮色彩"
+    },
+    {
+      "name": "settings_theme_auto",
+      "value": "跟随系统"
+    },
+    {
+      "name": "settings_light",
+      "value": "浅色"
+    },
+    {
+      "name": "settings_dark",
+      "value": "深色"
+    },
+    {
+      "name": "accent_blue",
+      "value": "蓝色"
+    },
+    {
+      "name": "accent_red",
+      "value": "红色"
+    },
+    {
+      "name": "accent_purple",
+      "value": "紫色"
+    },
+    {
+      "name": "accent_teal",
+      "value": "青绿色"
+    },
+    {
+      "name": "language_zh_hant",
+      "value": "繁體中文"
+    },
+    {
+      "name": "language_ja",
+      "value": "日本語"
+    },
+    {
+      "name": "language_ko",
+      "value": "한국어"
+    },
+    {
+      "name": "language_ru",
+      "value": "Русский"
+    },
+    {
+      "name": "licenses_list_title",
+      "value": "开源许可"
+    },
+    {
+      "name": "licenses_section_projects",
+      "value": "项目名称与仓库"
+    },
+    {
+      "name": "licenses_section_third",
+      "value": "第三方组件与许可"
+    },
+    {
+      "name": "licenses_section_third_sub",
+      "value": "随应用分发的组件及许可全文"
+    },
+    {
+      "name": "licenses_this_project",
+      "value": "本项目"
+    },
+    {
+      "name": "licenses_upstream_project",
+      "value": "上游项目"
+    },
+    {
+      "name": "licenses_components",
+      "value": "组件"
+    },
+    {
+      "name": "licenses_copyright",
+      "value": "版权声明"
+    },
+    {
+      "name": "licenses_full_text",
+      "value": "许可全文"
+    },
+    {
+      "name": "licenses_note_label",
+      "value": "说明"
+    },
+    {
+      "name": "licenses_note_body",
+      "value": "上游许可文件列出了 CrystalDiskInfo 的许可条款，随本应用一并分发；实际编译进本应用但未被上游单列的组件见补充声明。"
+    },
+    {
+      "name": "licenses_view_upstream",
+      "value": "查看上游完整许可"
+    },
+    {
+      "name": "licenses_view_project",
+      "value": "查看本项目完整许可"
+    },
+    {
+      "name": "licenses_project_sub",
+      "value": "本项目使用的 MIT 许可"
+    },
+    {
+      "name": "licenses_view_supplement",
+      "value": "查看完整补充声明"
+    },
+    {
+      "name": "licenses_supplement_title",
+      "value": "第三方组件补充声明"
+    },
+    {
+      "name": "licenses_supplement_sub",
+      "value": "随应用分发的组件与内嵌资源"
+    },
+    {
+      "name": "licenses_upstream_sub",
+      "value": "随上游项目分发的许可文件"
+    },
+    {
+      "name": "a11y_licenses_back",
+      "value": "返回开源许可"
+    },
+    {
+      "name": "toast_link_copied",
+      "value": "链接已复制到剪贴板"
+    },
+    {
+      "name": "toast_license_read_failed",
+      "value": "读取许可文件失败"
+    },
+    {
+      "name": "crystaldiskinfo_components",
+      "value": "CrystalDiskInfo（SMART 解析引擎，已移植）"
+    },
+    {
+      "name": "licenses_section_mit_sub",
+      "value": "CrystalDiskInfo 使用的上游许可"
+    }
+  ]
+}

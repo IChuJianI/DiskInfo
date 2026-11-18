@@ -1,0 +1,572 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Инструмент мониторинга здоровья дисков на основе движка SMART CrystalDiskInfo"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "DiskInfo"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "DiskInfo"
+    },
+    {
+      "name": "home",
+      "value": "Главная"
+    },
+    {
+      "name": "home_intro",
+      "value": "DiskInfo считывает данные SMART с внешних USB-дисков и в реальном времени показывает состояние, температуру, время работы и оставшийся ресурс."
+    },
+    {
+      "name": "home_steps_title",
+      "value": "Как пользоваться"
+    },
+    {
+      "name": "home_step_connect_title",
+      "value": "Подключите диск"
+    },
+    {
+      "name": "home_step_connect_desc",
+      "value": "Подключите внешний диск или контейнер к USB и разрешите доступ по запросу системы."
+    },
+    {
+      "name": "home_step_read_title",
+      "value": "Автоматическое чтение"
+    },
+    {
+      "name": "home_step_read_desc",
+      "value": "Приложение сканирует с заданным интервалом и считывает модель, объём, температуру и атрибуты SMART."
+    },
+    {
+      "name": "home_step_view_title",
+      "value": "Проверьте состояние"
+    },
+    {
+      "name": "home_step_view_desc",
+      "value": "Все показатели на странице «Диски». Если чтение не удаётся, откройте «Диагностику»."
+    },
+    {
+      "name": "home_cta",
+      "value": "Показать диски"
+    },
+    {
+      "name": "home_local_note",
+      "value": "Все данные считываются локально и не передаются в сеть"
+    },
+    {
+      "name": "disks",
+      "value": "Диски"
+    },
+    {
+      "name": "refresh",
+      "value": "Обновить"
+    },
+    {
+      "name": "more",
+      "value": "Ещё"
+    },
+    {
+      "name": "settings",
+      "value": "Настройки"
+    },
+    {
+      "name": "about",
+      "value": "О приложении"
+    },
+    {
+      "name": "diagnostics",
+      "value": "Диагностика"
+    },
+    {
+      "name": "last_scan",
+      "value": "Последнее сканирование"
+    },
+    {
+      "name": "scanning",
+      "value": "Сканирование…"
+    },
+    {
+      "name": "no_disk",
+      "value": "Внешний диск не обнаружен"
+    },
+    {
+      "name": "status_good",
+      "value": "Хорошо"
+    },
+    {
+      "name": "status_caution",
+      "value": "Внимание"
+    },
+    {
+      "name": "status_bad",
+      "value": "Плохо"
+    },
+    {
+      "name": "status_unknown",
+      "value": "Неизвестно"
+    },
+    {
+      "name": "health",
+      "value": "Состояние"
+    },
+    {
+      "name": "temperature",
+      "value": "Температура"
+    },
+    {
+      "name": "life",
+      "value": "Остаточный ресурс"
+    },
+    {
+      "name": "life_estimated",
+      "value": "Оценка"
+    },
+    {
+      "name": "power_on_hours",
+      "value": "Время работы"
+    },
+    {
+      "name": "power_on_count",
+      "value": "Число включений"
+    },
+    {
+      "name": "capacity",
+      "value": "Объём"
+    },
+    {
+      "name": "info_title",
+      "value": "Сведения об устройстве"
+    },
+    {
+      "name": "info_model",
+      "value": "Модель"
+    },
+    {
+      "name": "info_serial",
+      "value": "Серийный номер"
+    },
+    {
+      "name": "info_firmware",
+      "value": "Прошивка"
+    },
+    {
+      "name": "info_interface",
+      "value": "Интерфейс"
+    },
+    {
+      "name": "info_transfer",
+      "value": "Режим передачи"
+    },
+    {
+      "name": "info_form_factor",
+      "value": "Форм-фактор"
+    },
+    {
+      "name": "info_rotation",
+      "value": "Скорость вращения"
+    },
+    {
+      "name": "info_features",
+      "value": "Функции"
+    },
+    {
+      "name": "info_bus",
+      "value": "Шина"
+    },
+    {
+      "name": "smart_title",
+      "value": "Атрибуты SMART"
+    },
+    {
+      "name": "col_id",
+      "value": "ID"
+    },
+    {
+      "name": "col_name",
+      "value": "Атрибут"
+    },
+    {
+      "name": "col_current",
+      "value": "Текущее"
+    },
+    {
+      "name": "col_worst",
+      "value": "Худшее"
+    },
+    {
+      "name": "col_threshold",
+      "value": "Порог"
+    },
+    {
+      "name": "col_raw",
+      "value": "Исходное значение"
+    },
+    {
+      "name": "smart_unavailable",
+      "value": "Не удаётся прочитать данные SMART с этого устройства."
+    },
+    {
+      "name": "degraded_hint",
+      "value": "Подключите USB-диск или контейнер для SSD. Внутренние диски не сканируются."
+    },
+    {
+      "name": "chart_title",
+      "value": "История температуры"
+    },
+    {
+      "name": "chart_min",
+      "value": "Мин."
+    },
+    {
+      "name": "chart_max",
+      "value": "Макс."
+    },
+    {
+      "name": "bus_ata",
+      "value": "ATA"
+    },
+    {
+      "name": "bus_nvme",
+      "value": "NVMe"
+    },
+    {
+      "name": "bus_usb",
+      "value": "USB"
+    },
+    {
+      "name": "bus_unknown",
+      "value": "Неизвестно"
+    },
+    {
+      "name": "rotation_ssd",
+      "value": "SSD"
+    },
+    {
+      "name": "rotation_hdd",
+      "value": "HDD"
+    },
+    {
+      "name": "rotation_unreported",
+      "value": "не сообщается"
+    },
+    {
+      "name": "rotation_estimated",
+      "value": "определено по модели"
+    },
+    {
+      "name": "unit_rpm",
+      "value": "об/мин"
+    },
+    {
+      "name": "unit_hours",
+      "value": "ч"
+    },
+    {
+      "name": "unit_minutes",
+      "value": "мин"
+    },
+    {
+      "name": "power_on_under_minute",
+      "value": "< 1 мин"
+    },
+    {
+      "name": "unit_times",
+      "value": "раз"
+    },
+    {
+      "name": "value_na",
+      "value": "---"
+    },
+    {
+      "name": "warnings",
+      "value": "Предупреждения"
+    },
+    {
+      "name": "settings_refresh",
+      "value": "Интервал обновления"
+    },
+    {
+      "name": "settings_unit",
+      "value": "Единица температуры"
+    },
+    {
+      "name": "settings_unit_c",
+      "value": "Цельсий (°C)"
+    },
+    {
+      "name": "settings_unit_f",
+      "value": "Фаренгейт (°F)"
+    },
+    {
+      "name": "settings_alarm",
+      "value": "Порог температуры"
+    },
+    {
+      "name": "settings_raw",
+      "value": "Формат исходных значений"
+    },
+    {
+      "name": "settings_raw_dec",
+      "value": "Десятичный"
+    },
+    {
+      "name": "settings_raw_hex",
+      "value": "Шестнадцатеричный"
+    },
+    {
+      "name": "settings_hide_serial",
+      "value": "Скрыть серийный номер"
+    },
+    {
+      "name": "settings_thresholds",
+      "value": "Пороги состояния диска"
+    },
+    {
+      "name": "settings_threshold_05",
+      "value": "Переназначенные секторы (05)"
+    },
+    {
+      "name": "settings_threshold_c5",
+      "value": "Ожидающие секторы (C5)"
+    },
+    {
+      "name": "settings_threshold_c6",
+      "value": "Неисправимые секторы (C6)"
+    },
+    {
+      "name": "settings_threshold_ff",
+      "value": "Уровень предупреждения ресурса"
+    },
+    {
+      "name": "settings_language",
+      "value": "Язык"
+    },
+    {
+      "name": "language_auto",
+      "value": "Как в системе"
+    },
+    {
+      "name": "language_zh",
+      "value": "简体中文"
+    },
+    {
+      "name": "language_en",
+      "value": "English"
+    },
+    {
+      "name": "about_version",
+      "value": "Версия"
+    },
+    {
+      "name": "about_developer",
+      "value": "Разработчик"
+    },
+    {
+      "name": "about_developer_name",
+      "value": "Li Chen"
+    },
+    {
+      "name": "about_bundle",
+      "value": "Имя пакета"
+    },
+    {
+      "name": "about_website",
+      "value": "Официальный сайт"
+    },
+    {
+      "name": "about_email",
+      "value": "Контактная почта"
+    },
+    {
+      "name": "about_email_copied",
+      "value": "Адрес почты скопирован"
+    },
+    {
+      "name": "about_website_copied",
+      "value": "Адрес сайта скопирован"
+    },
+    {
+      "name": "about_license",
+      "value": "Лицензии открытого кода"
+    },
+    {
+      "name": "diag_title",
+      "value": "Диагностика"
+    },
+    {
+      "name": "diag_channels",
+      "value": "Сообщения USB-канала"
+    },
+    {
+      "name": "app_tagline",
+      "value": "Монитор здоровья дисков"
+    },
+    {
+      "name": "settings_core",
+      "value": "Основные настройки"
+    },
+    {
+      "name": "settings_display",
+      "value": "Отображение"
+    },
+    {
+      "name": "settings_group_general",
+      "value": "Общие"
+    },
+    {
+      "name": "settings_group_detection",
+      "value": "Обнаружение"
+    },
+    {
+      "name": "settings_appearance",
+      "value": "Внешний вид"
+    },
+    {
+      "name": "settings_theme_mode",
+      "value": "Тема"
+    },
+    {
+      "name": "settings_accent",
+      "value": "Цвет кнопок"
+    },
+    {
+      "name": "settings_theme_auto",
+      "value": "Как в системе"
+    },
+    {
+      "name": "settings_light",
+      "value": "Светлая"
+    },
+    {
+      "name": "settings_dark",
+      "value": "Тёмная"
+    },
+    {
+      "name": "accent_blue",
+      "value": "Синий"
+    },
+    {
+      "name": "accent_red",
+      "value": "Красный"
+    },
+    {
+      "name": "accent_purple",
+      "value": "Фиолетовый"
+    },
+    {
+      "name": "accent_teal",
+      "value": "Бирюзовый"
+    },
+    {
+      "name": "language_zh_hant",
+      "value": "繁體中文"
+    },
+    {
+      "name": "language_ja",
+      "value": "日本語"
+    },
+    {
+      "name": "language_ko",
+      "value": "한국어"
+    },
+    {
+      "name": "language_ru",
+      "value": "Русский"
+    },
+    {
+      "name": "licenses_list_title",
+      "value": "Лицензии"
+    },
+    {
+      "name": "licenses_section_projects",
+      "value": "Названия проектов и репозитории"
+    },
+    {
+      "name": "licenses_section_third",
+      "value": "Сторонние компоненты и лицензии"
+    },
+    {
+      "name": "licenses_section_third_sub",
+      "value": "Компоненты в составе приложения и полные тексты лицензий"
+    },
+    {
+      "name": "licenses_this_project",
+      "value": "Этот проект"
+    },
+    {
+      "name": "licenses_upstream_project",
+      "value": "Upstream-проект"
+    },
+    {
+      "name": "licenses_components",
+      "value": "Компонент"
+    },
+    {
+      "name": "licenses_copyright",
+      "value": "Уведомление об авторских правах"
+    },
+    {
+      "name": "licenses_full_text",
+      "value": "Полный текст лицензии"
+    },
+    {
+      "name": "licenses_note_label",
+      "value": "Примечание"
+    },
+    {
+      "name": "licenses_note_body",
+      "value": "Файл лицензии upstream-проекта содержит лицензию CrystalDiskInfo и поставляется вместе с приложением. Компоненты, включённые в приложение, но не перечисленные отдельно upstream, описаны в дополнительном уведомлении."
+    },
+    {
+      "name": "licenses_view_upstream",
+      "value": "Открыть полный текст лицензии upstream"
+    },
+    {
+      "name": "licenses_view_project",
+      "value": "Открыть полный текст лицензии проекта"
+    },
+    {
+      "name": "licenses_project_sub",
+      "value": "Лицензия MIT, используемая в этом проекте"
+    },
+    {
+      "name": "licenses_view_supplement",
+      "value": "Открыть полное дополнительное уведомление"
+    },
+    {
+      "name": "licenses_supplement_title",
+      "value": "Дополнительное уведомление о сторонних компонентах"
+    },
+    {
+      "name": "licenses_supplement_sub",
+      "value": "Компоненты и ресурсы в составе приложения"
+    },
+    {
+      "name": "licenses_upstream_sub",
+      "value": "Файл лицензии из upstream-проекта"
+    },
+    {
+      "name": "a11y_licenses_back",
+      "value": "Назад к лицензиям"
+    },
+    {
+      "name": "toast_link_copied",
+      "value": "Ссылка скопирована в буфер обмена"
+    },
+    {
+      "name": "toast_license_read_failed",
+      "value": "Не удалось прочитать файл лицензии"
+    },
+    {
+      "name": "crystaldiskinfo_components",
+      "value": "CrystalDiskInfo (движок анализа SMART, портирован)"
+    },
+    {
+      "name": "licenses_section_mit_sub",
+      "value": "Лицензия upstream-проекта CrystalDiskInfo"
+    }
+  ]
+}

@@ -1,0 +1,572 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Disk health monitor with the CrystalDiskInfo SMART engine"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "DiskInfo"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "DiskInfo"
+    },
+    {
+      "name": "home",
+      "value": "Home"
+    },
+    {
+      "name": "home_intro",
+      "value": "DiskInfo reads SMART data from external USB drives and shows health, temperature, power-on time and remaining life in real time."
+    },
+    {
+      "name": "home_steps_title",
+      "value": "How to use"
+    },
+    {
+      "name": "home_step_connect_title",
+      "value": "Connect the drive"
+    },
+    {
+      "name": "home_step_connect_desc",
+      "value": "Plug the external drive or enclosure into USB and allow access when prompted."
+    },
+    {
+      "name": "home_step_read_title",
+      "value": "Automatic scan"
+    },
+    {
+      "name": "home_step_read_desc",
+      "value": "The app scans at your configured interval and reads model, capacity, temperature and SMART attributes."
+    },
+    {
+      "name": "home_step_view_title",
+      "value": "Check the health"
+    },
+    {
+      "name": "home_step_view_desc",
+      "value": "See all metrics on the Disks page; if reading fails, open Diagnostics to troubleshoot."
+    },
+    {
+      "name": "home_cta",
+      "value": "View disks"
+    },
+    {
+      "name": "home_local_note",
+      "value": "All data is read locally and never uploaded"
+    },
+    {
+      "name": "disks",
+      "value": "Disks"
+    },
+    {
+      "name": "refresh",
+      "value": "Refresh"
+    },
+    {
+      "name": "more",
+      "value": "More"
+    },
+    {
+      "name": "settings",
+      "value": "Settings"
+    },
+    {
+      "name": "about",
+      "value": "About"
+    },
+    {
+      "name": "diagnostics",
+      "value": "Diagnostics"
+    },
+    {
+      "name": "last_scan",
+      "value": "Last scan"
+    },
+    {
+      "name": "scanning",
+      "value": "Scanning…"
+    },
+    {
+      "name": "no_disk",
+      "value": "No external disk detected"
+    },
+    {
+      "name": "status_good",
+      "value": "Good"
+    },
+    {
+      "name": "status_caution",
+      "value": "Caution"
+    },
+    {
+      "name": "status_bad",
+      "value": "Bad"
+    },
+    {
+      "name": "status_unknown",
+      "value": "Unknown"
+    },
+    {
+      "name": "health",
+      "value": "Health status"
+    },
+    {
+      "name": "temperature",
+      "value": "Temperature"
+    },
+    {
+      "name": "life",
+      "value": "Life"
+    },
+    {
+      "name": "life_estimated",
+      "value": "Estimated"
+    },
+    {
+      "name": "power_on_hours",
+      "value": "Power on hours"
+    },
+    {
+      "name": "power_on_count",
+      "value": "Power on count"
+    },
+    {
+      "name": "capacity",
+      "value": "Capacity"
+    },
+    {
+      "name": "info_title",
+      "value": "Device information"
+    },
+    {
+      "name": "info_model",
+      "value": "Model"
+    },
+    {
+      "name": "info_serial",
+      "value": "Serial number"
+    },
+    {
+      "name": "info_firmware",
+      "value": "Firmware"
+    },
+    {
+      "name": "info_interface",
+      "value": "Interface"
+    },
+    {
+      "name": "info_transfer",
+      "value": "Transfer mode"
+    },
+    {
+      "name": "info_form_factor",
+      "value": "Form factor"
+    },
+    {
+      "name": "info_rotation",
+      "value": "Rotation rate"
+    },
+    {
+      "name": "info_features",
+      "value": "Features"
+    },
+    {
+      "name": "info_bus",
+      "value": "Bus"
+    },
+    {
+      "name": "smart_title",
+      "value": "SMART attributes"
+    },
+    {
+      "name": "col_id",
+      "value": "ID"
+    },
+    {
+      "name": "col_name",
+      "value": "Attribute"
+    },
+    {
+      "name": "col_current",
+      "value": "Current"
+    },
+    {
+      "name": "col_worst",
+      "value": "Worst"
+    },
+    {
+      "name": "col_threshold",
+      "value": "Threshold"
+    },
+    {
+      "name": "col_raw",
+      "value": "Raw value"
+    },
+    {
+      "name": "smart_unavailable",
+      "value": "SMART data cannot be read on this device."
+    },
+    {
+      "name": "degraded_hint",
+      "value": "Connect a USB hard drive or SSD enclosure. Internal disks are not scanned."
+    },
+    {
+      "name": "chart_title",
+      "value": "Temperature history"
+    },
+    {
+      "name": "chart_min",
+      "value": "Min"
+    },
+    {
+      "name": "chart_max",
+      "value": "Max"
+    },
+    {
+      "name": "bus_ata",
+      "value": "ATA"
+    },
+    {
+      "name": "bus_nvme",
+      "value": "NVMe"
+    },
+    {
+      "name": "bus_usb",
+      "value": "USB"
+    },
+    {
+      "name": "bus_unknown",
+      "value": "Unknown"
+    },
+    {
+      "name": "rotation_ssd",
+      "value": "SSD"
+    },
+    {
+      "name": "rotation_hdd",
+      "value": "HDD"
+    },
+    {
+      "name": "rotation_unreported",
+      "value": "not reported"
+    },
+    {
+      "name": "rotation_estimated",
+      "value": "inferred from model"
+    },
+    {
+      "name": "unit_rpm",
+      "value": "rpm"
+    },
+    {
+      "name": "unit_hours",
+      "value": "hours"
+    },
+    {
+      "name": "unit_minutes",
+      "value": "min"
+    },
+    {
+      "name": "power_on_under_minute",
+      "value": "< 1 min"
+    },
+    {
+      "name": "unit_times",
+      "value": "times"
+    },
+    {
+      "name": "value_na",
+      "value": "---"
+    },
+    {
+      "name": "warnings",
+      "value": "Warnings"
+    },
+    {
+      "name": "settings_refresh",
+      "value": "Refresh interval"
+    },
+    {
+      "name": "settings_unit",
+      "value": "Temperature unit"
+    },
+    {
+      "name": "settings_unit_c",
+      "value": "Celsius (°C)"
+    },
+    {
+      "name": "settings_unit_f",
+      "value": "Fahrenheit (°F)"
+    },
+    {
+      "name": "settings_alarm",
+      "value": "Alarm temperature"
+    },
+    {
+      "name": "settings_raw",
+      "value": "Raw value format"
+    },
+    {
+      "name": "settings_raw_dec",
+      "value": "Decimal"
+    },
+    {
+      "name": "settings_raw_hex",
+      "value": "Hexadecimal"
+    },
+    {
+      "name": "settings_hide_serial",
+      "value": "Hide serial number"
+    },
+    {
+      "name": "settings_thresholds",
+      "value": "Disk status thresholds"
+    },
+    {
+      "name": "settings_threshold_05",
+      "value": "Reallocated sectors (05)"
+    },
+    {
+      "name": "settings_threshold_c5",
+      "value": "Pending sectors (C5)"
+    },
+    {
+      "name": "settings_threshold_c6",
+      "value": "Uncorrectable sectors (C6)"
+    },
+    {
+      "name": "settings_threshold_ff",
+      "value": "Life caution level"
+    },
+    {
+      "name": "settings_language",
+      "value": "Language"
+    },
+    {
+      "name": "language_auto",
+      "value": "Follow system"
+    },
+    {
+      "name": "language_zh",
+      "value": "简体中文"
+    },
+    {
+      "name": "language_en",
+      "value": "English"
+    },
+    {
+      "name": "about_version",
+      "value": "Version"
+    },
+    {
+      "name": "about_developer",
+      "value": "Developer"
+    },
+    {
+      "name": "about_developer_name",
+      "value": "Li Chen"
+    },
+    {
+      "name": "about_bundle",
+      "value": "Package name"
+    },
+    {
+      "name": "about_website",
+      "value": "Official website"
+    },
+    {
+      "name": "about_email",
+      "value": "Contact email"
+    },
+    {
+      "name": "about_email_copied",
+      "value": "Email copied to clipboard"
+    },
+    {
+      "name": "about_website_copied",
+      "value": "Website copied to clipboard"
+    },
+    {
+      "name": "about_license",
+      "value": "Open source licenses"
+    },
+    {
+      "name": "diag_title",
+      "value": "Diagnostics"
+    },
+    {
+      "name": "diag_channels",
+      "value": "USB channel messages"
+    },
+    {
+      "name": "app_tagline",
+      "value": "SMART disk monitor"
+    },
+    {
+      "name": "settings_core",
+      "value": "Core settings"
+    },
+    {
+      "name": "settings_display",
+      "value": "Display"
+    },
+    {
+      "name": "settings_group_general",
+      "value": "General"
+    },
+    {
+      "name": "settings_group_detection",
+      "value": "Detection"
+    },
+    {
+      "name": "settings_appearance",
+      "value": "Appearance"
+    },
+    {
+      "name": "settings_theme_mode",
+      "value": "Theme"
+    },
+    {
+      "name": "settings_accent",
+      "value": "Button color"
+    },
+    {
+      "name": "settings_theme_auto",
+      "value": "Follow system"
+    },
+    {
+      "name": "settings_light",
+      "value": "Light"
+    },
+    {
+      "name": "settings_dark",
+      "value": "Dark"
+    },
+    {
+      "name": "accent_blue",
+      "value": "Blue"
+    },
+    {
+      "name": "accent_red",
+      "value": "Red"
+    },
+    {
+      "name": "accent_purple",
+      "value": "Purple"
+    },
+    {
+      "name": "accent_teal",
+      "value": "Teal"
+    },
+    {
+      "name": "language_zh_hant",
+      "value": "繁體中文"
+    },
+    {
+      "name": "language_ja",
+      "value": "日本語"
+    },
+    {
+      "name": "language_ko",
+      "value": "한국어"
+    },
+    {
+      "name": "language_ru",
+      "value": "Русский"
+    },
+    {
+      "name": "licenses_list_title",
+      "value": "Licenses"
+    },
+    {
+      "name": "licenses_section_projects",
+      "value": "Project names and repositories"
+    },
+    {
+      "name": "licenses_section_third",
+      "value": "Third-party components and licenses"
+    },
+    {
+      "name": "licenses_section_third_sub",
+      "value": "Components bundled with this app, with full license texts"
+    },
+    {
+      "name": "licenses_this_project",
+      "value": "This project"
+    },
+    {
+      "name": "licenses_upstream_project",
+      "value": "Upstream project"
+    },
+    {
+      "name": "licenses_components",
+      "value": "Component"
+    },
+    {
+      "name": "licenses_copyright",
+      "value": "Copyright notice"
+    },
+    {
+      "name": "licenses_full_text",
+      "value": "Full license text"
+    },
+    {
+      "name": "licenses_note_label",
+      "value": "Notice"
+    },
+    {
+      "name": "licenses_note_body",
+      "value": "The upstream license file lists CrystalDiskInfo's license and ships with this app. Components compiled into this app but not listed separately upstream are covered by the supplemental notice."
+    },
+    {
+      "name": "licenses_view_upstream",
+      "value": "View the full upstream license"
+    },
+    {
+      "name": "licenses_view_project",
+      "value": "View the full project license"
+    },
+    {
+      "name": "licenses_project_sub",
+      "value": "MIT license used by this project"
+    },
+    {
+      "name": "licenses_view_supplement",
+      "value": "View the full supplemental notice"
+    },
+    {
+      "name": "licenses_supplement_title",
+      "value": "Third-party supplemental notice"
+    },
+    {
+      "name": "licenses_supplement_sub",
+      "value": "Components and resources bundled with this app"
+    },
+    {
+      "name": "licenses_upstream_sub",
+      "value": "License file shipped with the upstream project"
+    },
+    {
+      "name": "a11y_licenses_back",
+      "value": "Back to licenses"
+    },
+    {
+      "name": "toast_link_copied",
+      "value": "Link copied to clipboard"
+    },
+    {
+      "name": "toast_license_read_failed",
+      "value": "Failed to read the license file"
+    },
+    {
+      "name": "crystaldiskinfo_components",
+      "value": "CrystalDiskInfo (SMART interpretation engine, ported)"
+    },
+    {
+      "name": "licenses_section_mit_sub",
+      "value": "Upstream license of CrystalDiskInfo"
+    }
+  ]
+}
